@@ -10,7 +10,9 @@ hr {
 /*NAVBAR*/
 .navbar {
   background-color: #f50505;
+  font-family: "Oswald", sans-serif;
   color: white;
+  border-bottom: 2px solid white;
 }
 
 .sticky-top {
@@ -32,12 +34,30 @@ a:visited {
 }
 
 /*MEDIA CONTENT*/
+.media {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
 .text__top {
   word-spacing: 2px;
 }
 
+h5 {
+  font-family: "Oswald", sans-serif;
+  color: #f50505;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.tekst__motto {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: #f50505;
+}
+
 .btn {
   background-color: #f50505;
+  font-family: "Oswald", sans-serif;
   color: white;
   margin-right: 200px;
   margin-left: 200px;
@@ -53,16 +73,16 @@ table {
 }
 
 thead {
-  font-size: smaller;
+  font-size: 20px;
 }
 
 /*form*/
 #section__three {
-  border-radius: 5px;
   color: white;
   background-color: #f50505;
   padding: 20px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
 }
 
 /*INPUT TEXT MAKE UP*/

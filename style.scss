@@ -1,10 +1,14 @@
-@mixin top__navbar (){
-    background-color: rgb(245, 5, 5,);
+
+
+
+@mixin top__navbar() {
+  background-color: rgb(245, 5, 5,);
+  font-family: 'Oswald', sans-serif;
 }
 
-@mixin links (){
+@mixin links() {
   text-decoration: none;
-  color:white
+  color: white
 }
 
 /*BODY*/
@@ -12,38 +16,59 @@
 html, body {
   height: 100%;
 }
-hr{
+
+hr {
   opacity: 0;
 }
 
 /*NAVBAR*/
 
-.navbar{
+.navbar {
   @include top__navbar;
   color: white;
+  border-bottom: 2px solid white;
 }
+
 .sticky-top {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.online{
+.online {
   width: 100vw;
 }
 
-a:link{
+a:link {
   color: white;
 }
-a:visited{
+
+a:visited {
   color: white;
 }
 
 
 /*MEDIA CONTENT*/
 
-.text__top{
+.media{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.text__top {
   word-spacing: 2px;
+}
+
+h5{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(245, 5, 5,);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.tekst__motto {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: rgb(245, 5, 5,);
 }
 
 .btn {
@@ -55,26 +80,27 @@ a:visited{
 
 }
 
-table{
+table {
   margin-left: 50px;
 }
-.vlag{
+
+.vlag {
   margin-top: 75px;
 }
 
-thead{
-font-size: smaller;
+thead {
+  font-size: 20px;
 
 }
 
 /*form*/
 
 #section__three {
-  border-radius: 5px;
   color: white;
   background-color: rgb(245, 5, 5,);
   padding: 20px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
 }
 
 /*INPUT TEXT MAKE UP*/
@@ -90,7 +116,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-textarea{
+textarea {
   height: 25px;
 }
 
@@ -114,7 +140,7 @@ input[type=submit]:hover {
 }
 
 /*footer*/
-footer{
+footer {
   height: 50px;
   background-color: rgb(252, 248, 248);
   font-size: smaller;
@@ -127,17 +153,17 @@ footer{
   color: gray;
 }
 
-.copyright{
+.copyright {
   float: left;
   word-spacing: 20px;
 }
 
-.footer_info{
+.footer_info {
   float: right;
   word-spacing: 30px;
 }
 
-.social{
+.social {
   width: 15px;
   height: 15px;
 }
