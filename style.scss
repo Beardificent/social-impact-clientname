@@ -1,14 +1,9 @@
 @media screen and (max-width: 700px) {
-  footer{
-    width: 100vw;
+  footer {
+    display: none;
   }
 
-  .footer_info {
-    float: right;
-  }
 }
-
-
 @mixin top__navbar() {
   background-color: rgb(245, 5, 5,);
   font-family: 'Oswald', sans-serif;
