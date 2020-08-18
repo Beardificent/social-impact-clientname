@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aba89b0-6a83-42f4-ae00-668c18bf2b7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
@@ -52,6 +53,7 @@
       <workItem from="1597734725316" duration="2588000" />
       <workItem from="1597737383869" duration="11421000" />
       <workItem from="1597752122754" duration="653000" />
+      <workItem from="1597753078335" duration="4150000" />
     </task>
     <servers />
   </component>
@@ -63,6 +65,10 @@
       <screen x="60" y="27" width="1306" height="741" />
     </state>
     <state x="348" y="175" width="719" height="452" key="EditFileWatcherDialog/60.27.1306.741@60.27.1306.741" timestamp="1597735562422" />
+    <state x="0" y="27" width="618" height="741" key="find.popup" timestamp="1597756911044">
+      <screen x="60" y="27" width="1306" height="741" />
+    </state>
+    <state x="0" y="27" width="618" height="741" key="find.popup/60.27.1306.741@60.27.1306.741" timestamp="1597756911044" />
     <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597748732125">
       <screen x="60" y="27" width="1306" height="741" />
     </state>

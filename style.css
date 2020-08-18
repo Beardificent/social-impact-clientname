@@ -1,3 +1,12 @@
+@media screen and (max-width: 700px) {
+  footer {
+    width: 100vw;
+  }
+
+  .footer_info {
+    float: right;
+  }
+}
 /*BODY*/
 html, body {
   height: 100%;
@@ -42,6 +51,10 @@ a:visited {
   word-spacing: 2px;
 }
 
+#headingOne, #headingTwo {
+  background-color: #f50505;
+}
+
 h5 {
   font-family: "Oswald", sans-serif;
   color: #f50505;
@@ -68,12 +81,32 @@ table {
   margin-left: 50px;
 }
 
-.vlag {
-  margin-top: 75px;
-}
-
 thead {
   font-size: 20px;
+}
+
+.imagewrap {
+  margin-bottom: 30px;
+}
+
+.rounded-circle1 {
+  float: left;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.rounded-circle2 {
+  float: right;
+  margin-right: 150px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /*form*/
