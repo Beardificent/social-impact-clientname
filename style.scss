@@ -1,0 +1,56 @@
+@mixin top__navbar (){
+    background-color: rgb(245, 5, 5,);
+}
+
+@mixin links (){
+  text-decoration: none;
+  color:white
+}
+
+/*BODY*/
+
+html, body {
+  height: 100%;
+}
+hr{
+  opacity: 0;
+}
+
+/*NAVBAR*/
+
+.navbar{
+  @include top__navbar;
+  color: white;
+}
+
+.online{
+  width: 100vw;
+}
+
+
+/*MEDIA CONTENT*/
+
+.text__top{
+  word-spacing: 2px;
+}
+
+.btn {
+  @include top__navbar;
+  color: white;
+  margin-right: 200px;
+  margin-left: 200px;
+  float: right;
+
+}
+
+table{
+  margin-left: 50px;
+}
+.vlag{
+  margin-top: 75px;
+}
+
+thead{
+font-size: smaller;
+
+}

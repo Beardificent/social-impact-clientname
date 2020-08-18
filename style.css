@@ -1,0 +1,45 @@
+/*BODY*/
+html, body {
+  height: 100%;
+}
+
+hr {
+  opacity: 0;
+}
+
+/*NAVBAR*/
+.navbar {
+  background-color: #f50505;
+  color: white;
+}
+
+.online {
+  width: 100vw;
+}
+
+/*MEDIA CONTENT*/
+.text__top {
+  word-spacing: 2px;
+}
+
+.btn {
+  background-color: #f50505;
+  color: white;
+  margin-right: 200px;
+  margin-left: 200px;
+  float: right;
+}
+
+table {
+  margin-left: 50px;
+}
+
+.vlag {
+  margin-top: 75px;
+}
+
+thead {
+  font-size: smaller;
+}
+
+/*# sourceMappingURL=style.css.map */
