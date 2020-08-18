@@ -136,9 +136,9 @@ thead {
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
+  color: black;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-shadow: 2px 2px rgba(255, 182, 193, 0.5);
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -167,6 +167,7 @@ input[type=submit]:hover {
   border-radius: 4px;
   cursor: pointer;
 }
+
 
 /*footer*/
 
